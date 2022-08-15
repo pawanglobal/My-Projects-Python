@@ -4,5 +4,8 @@ layers += "\nEnter 'quit' if you are done.\nEnter topping: "
 while True:
     topping = input(layers)
     if topping == 'quit':
-        print("Thanks for your order")
+        print("\nThanks for your order")
         break
+    else:
+        print(f"\nWe will add topping {topping.title()} on your pizza.\n")
+        
